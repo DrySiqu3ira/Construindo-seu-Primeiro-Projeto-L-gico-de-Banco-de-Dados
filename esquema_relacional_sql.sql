@@ -28,9 +28,7 @@ size varchar(10)
 );
 
 
--- Para ser continuado no desafio: termine de implementar a tabela e crie a conexão com as tabelas necessárias
--- além disso, reflita essa modificação no diagrama de esquema relacional
--- criar constraints relacionadas ao pagamento
+
 create table payments(
 idPayment int auto_increment primary key,
 idclient int not null,
